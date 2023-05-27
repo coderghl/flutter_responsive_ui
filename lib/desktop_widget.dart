@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class DeskTopWidget extends StatelessWidget {
-  const DeskTopWidget({super.key});
+class DesktopWidget extends StatelessWidget {
+  const DesktopWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -9,7 +9,7 @@ class DeskTopWidget extends StatelessWidget {
       backgroundColor: Colors.green.shade100,
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Mobile Widget"),
+        title: const Text("Desktop Widget"),
         backgroundColor: Colors.green,
       ),
       body: Padding(

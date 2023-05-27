@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const ResponseWidget(
       mobileWidget: MobileWidget(),
-      desktopWidget: DeskTopWidget(),
+      desktopWidget: DesktopWidget(),
     );
   }
 }
